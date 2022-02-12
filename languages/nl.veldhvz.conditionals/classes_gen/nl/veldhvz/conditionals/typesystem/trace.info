@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1082485599095:jetbrains.mps.baseLanguage.structure.BlockStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1144226303539:jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081236700938:jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <root>
+    <file name="TypesystemDescriptor.java">
+      <unit at="9,0,33,0" name="nl.veldhvz.conditionals.typesystem.TypesystemDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:09de3c41-2764-49e7-9ad7-4a60e4b0505f(nl.veldhvz.conditionals.typesystem)/3116594940450405035">
+    <file name="TypesystemDescriptor.java">
+      <node id="3116594940450405035" at="15,5,16,84" concept="6" />
+      <node id="3116594940450405035" at="16,84,17,47" concept="2" />
+      <node id="3116594940450405035" at="14,5,18,5" concept="0" />
+      <scope id="3116594940450405035" at="15,5,17,47">
+        <var name="inferenceRule" id="3116594940450405035" />
+      </scope>
+    </file>
+    <file name="typeof_IfExpression_InferenceRule.java">
+      <node id="3116594940450432962" at="23,7,24,56" concept="6" />
+      <node id="3116594940450432962" at="24,56,25,202" concept="6" />
+      <node id="3116594940450432962" at="25,202,26,405" concept="2" />
+      <node id="3116594940450405035" at="30,50,31,36" concept="7" />
+      <node id="3116594940450405035" at="33,68,34,102" concept="7" />
+      <node id="3116594940450405035" at="36,30,37,17" concept="7" />
+      <node id="3116594940450405035" at="41,0,42,0" concept="8" trace="branch$VB31" />
+      <node id="3116594940450405035" at="42,0,43,0" concept="8" trace="consequence$fRMN" />
+      <node id="3116594940450405035" at="46,0,47,0" concept="8" trace="IfExpression$Ot" />
+      <node id="3116594940450405035" at="19,0,21,0" concept="1" trace="typeof_IfExpression_InferenceRule#()V" />
+      <node id="3116594940450405035" at="30,0,33,0" concept="5" trace="getApplicableConcept#()Lorg/jetbrains/mps/openapi/language/SAbstractConcept;" />
+      <node id="3116594940450405035" at="33,0,36,0" concept="5" trace="isApplicableAndPattern#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;" />
+      <node id="3116594940450405035" at="36,0,39,0" concept="5" trace="overrides#()Z" />
+      <node id="3116594940450432962" at="22,154,27,7" concept="0" />
+      <node id="3116594940450405473" at="21,125,28,5" concept="3" />
+      <node id="3116594940450405035" at="21,0,30,0" concept="5" trace="applyRule#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/typesystem/inference/TypeCheckingContext;Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;)V" />
+      <scope id="3116594940450405035" at="19,46,19,46" />
+      <scope id="3116594940450405035" at="30,50,31,36" />
+      <scope id="3116594940450405035" at="33,68,34,102" />
+      <scope id="3116594940450405035" at="36,30,37,17" />
+      <scope id="3116594940450405035" at="19,0,21,0" />
+      <scope id="3116594940450432962" at="23,7,26,405">
+        <var name="_info_12389875345" id="3116594940450432962" />
+        <var name="_nodeToCheck_1029348928467" id="3116594940450432962" />
+      </scope>
+      <scope id="3116594940450405035" at="30,0,33,0" />
+      <scope id="3116594940450405035" at="33,0,36,0">
+        <var name="argument" id="3116594940450405035" />
+      </scope>
+      <scope id="3116594940450405035" at="36,0,39,0" />
+      <scope id="3116594940450405476" at="22,154,27,7" />
+      <scope id="3116594940450405036" at="21,125,28,5" />
+      <scope id="3116594940450405473" at="21,125,28,5">
+        <var name="c" id="3116594940450405474" />
+      </scope>
+      <scope id="3116594940450405035" at="21,0,30,0">
+        <var name="ifExpression" id="3116594940450405035" />
+        <var name="status" id="3116594940450405035" />
+        <var name="typeCheckingContext" id="3116594940450405035" />
+      </scope>
+      <unit id="3116594940450405035" at="45,0,48,0" name="nl.veldhvz.conditionals.typesystem.typeof_IfExpression_InferenceRule$CONCEPTS" />
+      <unit id="3116594940450405035" at="40,0,44,0" name="nl.veldhvz.conditionals.typesystem.typeof_IfExpression_InferenceRule$LINKS" />
+      <unit id="3116594940450405035" at="18,0,49,0" name="nl.veldhvz.conditionals.typesystem.typeof_IfExpression_InferenceRule" />
+    </file>
+  </root>
+  <root nodeRef="r:09de3c41-2764-49e7-9ad7-4a60e4b0505f(nl.veldhvz.conditionals.typesystem)/3116594940450439644">
+    <file name="TypesystemDescriptor.java">
+      <node id="3116594940450439644" at="23,5,24,88" concept="6" />
+      <node id="3116594940450439644" at="24,88,25,47" concept="2" />
+      <node id="3116594940450439644" at="22,5,26,5" concept="0" />
+      <scope id="3116594940450439644" at="23,5,25,47">
+        <var name="inferenceRule" id="3116594940450439644" />
+      </scope>
+    </file>
+    <file name="typeof_SubjectReference_InferenceRule.java">
+      <node id="3116594940450460627" at="19,129,20,116" concept="6" />
+      <node id="3116594940450463405" at="22,7,23,60" concept="6" />
+      <node id="3116594940450463405" at="23,60,24,202" concept="6" />
+      <node id="3116594940450463405" at="24,202,25,256" concept="2" />
+      <node id="3116594940450464058" at="28,7,29,60" concept="6" />
+      <node id="3116594940450464058" at="29,60,30,202" concept="6" />
+      <node id="3116594940450464058" at="30,202,31,464" concept="2" />
+      <node id="3116594940450439644" at="35,50,36,40" concept="7" />
+      <node id="3116594940450439644" at="38,68,39,102" concept="7" />
+      <node id="3116594940450439644" at="41,30,42,17" concept="7" />
+      <node id="3116594940450439644" at="46,0,47,0" concept="8" trace="SubjectReference$Hy" />
+      <node id="3116594940450439644" at="17,0,19,0" concept="1" trace="typeof_SubjectReference_InferenceRule#()V" />
+      <node id="3116594940450439644" at="35,0,38,0" concept="5" trace="getApplicableConcept#()Lorg/jetbrains/mps/openapi/language/SAbstractConcept;" />
+      <node id="3116594940450439644" at="38,0,41,0" concept="5" trace="isApplicableAndPattern#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;" />
+      <node id="3116594940450439644" at="41,0,44,0" concept="5" trace="overrides#()Z" />
+      <node id="3116594940450463405" at="21,32,26,7" concept="0" />
+      <node id="3116594940450464058" at="27,12,32,7" concept="0" />
+      <node id="3116594940450463465" at="27,10,33,5" concept="0" />
+      <node id="3116594940450460974" at="20,116,33,5" concept="4" />
+      <node id="3116594940450439644" at="19,0,35,0" concept="5" trace="applyRule#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/typesystem/inference/TypeCheckingContext;Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;)V" />
+      <scope id="3116594940450439644" at="17,50,17,50" />
+      <scope id="3116594940450439644" at="35,50,36,40" />
+      <scope id="3116594940450439644" at="38,68,39,102" />
+      <scope id="3116594940450439644" at="41,30,42,17" />
+      <scope id="3116594940450439644" at="17,0,19,0" />
+      <scope id="3116594940450463405" at="22,7,25,256">
+        <var name="_info_12389875345" id="3116594940450463405" />
+        <var name="_nodeToCheck_1029348928467" id="3116594940450463405" />
+      </scope>
+      <scope id="3116594940450464058" at="28,7,31,464">
+        <var name="_info_12389875345" id="3116594940450464058" />
+        <var name="_nodeToCheck_1029348928467" id="3116594940450464058" />
+      </scope>
+      <scope id="3116594940450439644" at="35,0,38,0" />
+      <scope id="3116594940450439644" at="38,0,41,0">
+        <var name="argument" id="3116594940450439644" />
+      </scope>
+      <scope id="3116594940450439644" at="41,0,44,0" />
+      <scope id="3116594940450460976" at="21,32,26,7" />
+      <scope id="3116594940450463466" at="27,12,32,7" />
+      <scope id="3116594940450439645" at="19,129,33,5">
+        <var name="smartCastType" id="3116594940450460628" />
+      </scope>
+      <scope id="3116594940450439644" at="19,0,35,0">
+        <var name="status" id="3116594940450439644" />
+        <var name="subjectReference" id="3116594940450439644" />
+        <var name="typeCheckingContext" id="3116594940450439644" />
+      </scope>
+      <unit id="3116594940450439644" at="45,0,48,0" name="nl.veldhvz.conditionals.typesystem.typeof_SubjectReference_InferenceRule$CONCEPTS" />
+      <unit id="3116594940450439644" at="16,0,49,0" name="nl.veldhvz.conditionals.typesystem.typeof_SubjectReference_InferenceRule" />
+    </file>
+  </root>
+  <root nodeRef="r:09de3c41-2764-49e7-9ad7-4a60e4b0505f(nl.veldhvz.conditionals.typesystem)/3774406643935999817">
+    <file name="TypesystemDescriptor.java">
+      <node id="3774406643935999817" at="11,5,12,81" concept="6" />
+      <node id="3774406643935999817" at="12,81,13,47" concept="2" />
+      <node id="3774406643935999817" at="10,33,14,5" concept="0" />
+      <scope id="3774406643935999817" at="11,5,13,47">
+        <var name="inferenceRule" id="3774406643935999817" />
+      </scope>
+    </file>
+    <file name="typeof_EnumCheck_InferenceRule.java">
+      <node id="3774406643936000912" at="20,5,21,51" concept="6" />
+      <node id="3774406643936000912" at="21,51,22,200" concept="6" />
+      <node id="3774406643936000912" at="22,200,23,281" concept="2" />
+      <node id="3774406643935999817" at="26,50,27,33" concept="7" />
+      <node id="3774406643935999817" at="29,68,30,102" concept="7" />
+      <node id="3774406643935999817" at="32,30,33,17" concept="7" />
+      <node id="7248171679866399859" at="35,65,36,30" concept="6" />
+      <node id="7248171679866399859" at="36,30,37,221" concept="6" />
+      <node id="7248171679866399859" at="37,221,38,34" concept="2" />
+      <node id="7248171679866399859" at="38,34,39,24" concept="7" />
+      <node id="3774406643935999817" at="43,0,44,0" concept="8" trace="EnumCheck$$1" />
+      <node id="3774406643935999817" at="17,0,19,0" concept="1" trace="typeof_EnumCheck_InferenceRule#()V" />
+      <node id="3774406643935999817" at="26,0,29,0" concept="5" trace="getApplicableConcept#()Lorg/jetbrains/mps/openapi/language/SAbstractConcept;" />
+      <node id="3774406643935999817" at="29,0,32,0" concept="5" trace="isApplicableAndPattern#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;" />
+      <node id="3774406643935999817" at="32,0,35,0" concept="5" trace="overrides#()Z" />
+      <node id="3774406643936000912" at="19,122,24,5" concept="0" />
+      <node id="7248171679866399859" at="35,0,41,0" concept="9" trace="_quotation_createNode_ivsn0n_a1a0c0a0b#()Lorg/jetbrains/mps/openapi/model/SNode;" />
+      <node id="3774406643935999817" at="19,0,26,0" concept="5" trace="applyRule#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/typesystem/inference/TypeCheckingContext;Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;)V" />
+      <scope id="3774406643935999817" at="17,43,17,43" />
+      <scope id="3774406643935999817" at="26,50,27,33" />
+      <scope id="3774406643935999817" at="29,68,30,102" />
+      <scope id="3774406643935999817" at="32,30,33,17" />
+      <scope id="3774406643935999817" at="17,0,19,0" />
+      <scope id="3774406643936000912" at="20,5,23,281">
+        <var name="_info_12389875345" id="3774406643936000912" />
+        <var name="_nodeToCheck_1029348928467" id="3774406643936000912" />
+      </scope>
+      <scope id="3774406643935999817" at="26,0,29,0" />
+      <scope id="3774406643935999817" at="29,0,32,0">
+        <var name="argument" id="3774406643935999817" />
+      </scope>
+      <scope id="3774406643935999817" at="32,0,35,0" />
+      <scope id="7248171679866399859" at="35,65,39,24">
+        <var name="nb" id="7248171679866399859" />
+        <var name="quotedNode_1" id="7248171679866399859" />
+      </scope>
+      <scope id="3774406643935999818" at="19,122,24,5" />
+      <scope id="7248171679866399859" at="35,0,41,0" />
+      <scope id="3774406643935999817" at="19,0,26,0">
+        <var name="enumCheck" id="3774406643935999817" />
+        <var name="status" id="3774406643935999817" />
+        <var name="typeCheckingContext" id="3774406643935999817" />
+      </scope>
+      <unit id="3774406643935999817" at="42,0,45,0" name="nl.veldhvz.conditionals.typesystem.typeof_EnumCheck_InferenceRule$CONCEPTS" />
+      <unit id="3774406643935999817" at="16,0,46,0" name="nl.veldhvz.conditionals.typesystem.typeof_EnumCheck_InferenceRule" />
+    </file>
+  </root>
+  <root nodeRef="r:09de3c41-2764-49e7-9ad7-4a60e4b0505f(nl.veldhvz.conditionals.typesystem)/3774406643936115725">
+    <file name="TypesystemDescriptor.java">
+      <node id="3774406643936115725" at="19,5,20,98" concept="6" />
+      <node id="3774406643936115725" at="20,98,21,47" concept="2" />
+      <node id="3774406643936115725" at="18,5,22,5" concept="0" />
+      <scope id="3774406643936115725" at="19,5,21,47">
+        <var name="inferenceRule" id="3774406643936115725" />
+      </scope>
+    </file>
+    <file name="typeof_NodeIsInstanceOfExpression_InferenceRule.java">
+      <node id="3774406643936116921" at="20,5,21,68" concept="6" />
+      <node id="3774406643936116921" at="21,68,22,200" concept="6" />
+      <node id="3774406643936116921" at="22,200,23,281" concept="2" />
+      <node id="3774406643936115725" at="26,50,27,50" concept="7" />
+      <node id="3774406643936115725" at="29,68,30,102" concept="7" />
+      <node id="3774406643936115725" at="32,30,33,17" concept="7" />
+      <node id="3774406643936117135" at="35,65,36,30" concept="6" />
+      <node id="3774406643936117135" at="36,30,37,221" concept="6" />
+      <node id="3774406643936117135" at="37,221,38,34" concept="2" />
+      <node id="3774406643936117135" at="38,34,39,24" concept="7" />
+      <node id="3774406643936115725" at="43,0,44,0" concept="8" trace="NodeIsInstanceOfExpression$wQ" />
+      <node id="3774406643936115725" at="17,0,19,0" concept="1" trace="typeof_NodeIsInstanceOfExpression_InferenceRule#()V" />
+      <node id="3774406643936115725" at="26,0,29,0" concept="5" trace="getApplicableConcept#()Lorg/jetbrains/mps/openapi/language/SAbstractConcept;" />
+      <node id="3774406643936115725" at="29,0,32,0" concept="5" trace="isApplicableAndPattern#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;" />
+      <node id="3774406643936115725" at="32,0,35,0" concept="5" trace="overrides#()Z" />
+      <node id="3774406643936116921" at="19,139,24,5" concept="0" />
+      <node id="3774406643936117135" at="35,0,41,0" concept="9" trace="_quotation_createNode_xqncqy_a1a0c0a0b#()Lorg/jetbrains/mps/openapi/model/SNode;" />
+      <node id="3774406643936115725" at="19,0,26,0" concept="5" trace="applyRule#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/typesystem/inference/TypeCheckingContext;Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;)V" />
+      <scope id="3774406643936115725" at="17,60,17,60" />
+      <scope id="3774406643936115725" at="26,50,27,50" />
+      <scope id="3774406643936115725" at="29,68,30,102" />
+      <scope id="3774406643936115725" at="32,30,33,17" />
+      <scope id="3774406643936115725" at="17,0,19,0" />
+      <scope id="3774406643936116921" at="20,5,23,281">
+        <var name="_info_12389875345" id="3774406643936116921" />
+        <var name="_nodeToCheck_1029348928467" id="3774406643936116921" />
+      </scope>
+      <scope id="3774406643936115725" at="26,0,29,0" />
+      <scope id="3774406643936115725" at="29,0,32,0">
+        <var name="argument" id="3774406643936115725" />
+      </scope>
+      <scope id="3774406643936115725" at="32,0,35,0" />
+      <scope id="3774406643936117135" at="35,65,39,24">
+        <var name="nb" id="3774406643936117135" />
+        <var name="quotedNode_1" id="3774406643936117135" />
+      </scope>
+      <scope id="3774406643936115726" at="19,139,24,5" />
+      <scope id="3774406643936117135" at="35,0,41,0" />
+      <scope id="3774406643936115725" at="19,0,26,0">
+        <var name="nodeIsInstanceOfExpression" id="3774406643936115725" />
+        <var name="status" id="3774406643936115725" />
+        <var name="typeCheckingContext" id="3774406643936115725" />
+      </scope>
+      <unit id="3774406643936115725" at="42,0,45,0" name="nl.veldhvz.conditionals.typesystem.typeof_NodeIsInstanceOfExpression_InferenceRule$CONCEPTS" />
+      <unit id="3774406643936115725" at="16,0,46,0" name="nl.veldhvz.conditionals.typesystem.typeof_NodeIsInstanceOfExpression_InferenceRule" />
+    </file>
+  </root>
+  <root nodeRef="r:09de3c41-2764-49e7-9ad7-4a60e4b0505f(nl.veldhvz.conditionals.typesystem)/3774406643936503615">
+    <file name="TypesystemDescriptor.java">
+      <node id="3774406643936503615" at="27,5,28,95" concept="6" />
+      <node id="3774406643936503615" at="28,95,29,55" concept="2" />
+      <node id="3774406643936503615" at="26,5,30,5" concept="0" />
+      <scope id="3774406643936503615" at="27,5,29,55">
+        <var name="nonTypesystemRule" id="3774406643936503615" />
+      </scope>
+    </file>
+    <file name="check_IfExpression_NonTypesystemRule.java">
+      <node id="3774406643936523982" at="28,11,29,70" concept="6" />
+      <node id="3774406643936523982" at="29,70,30,231" concept="6" />
+      <node id="3774406643936524069" at="33,12,34,7" concept="0" />
+      <node id="3774406643936503615" at="37,50,38,36" concept="7" />
+      <node id="3774406643936503615" at="40,68,41,102" concept="7" />
+      <node id="3774406643936503615" at="43,30,44,17" concept="7" />
+      <node id="3774406643936503615" at="48,0,49,0" concept="8" trace="condition$fRkL" />
+      <node id="3774406643936503615" at="49,0,50,0" concept="8" trace="branch$VB31" />
+      <node id="3774406643936503615" at="53,0,54,0" concept="8" trace="IfExpression$Ot" />
+      <node id="3774406643936503615" at="22,0,24,0" concept="1" trace="check_IfExpression_NonTypesystemRule#()V" />
+      <node id="3774406643936503615" at="37,0,40,0" concept="5" trace="getApplicableConcept#()Lorg/jetbrains/mps/openapi/language/SAbstractConcept;" />
+      <node id="3774406643936503615" at="40,0,43,0" concept="5" trace="isApplicableAndPattern#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;" />
+      <node id="3774406643936503615" at="43,0,46,0" concept="5" trace="overrides#()Z" />
+      <node id="3774406643936523982" at="27,74,31,11" concept="0" />
+      <node id="3774406643936519291" at="26,55,32,9" concept="4" />
+      <node id="3774406643936518207" at="25,106,34,7" concept="4" />
+      <node id="3774406643936503638" at="24,125,35,5" concept="3" />
+      <node id="3774406643936503615" at="24,0,37,0" concept="5" trace="applyRule#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/typesystem/inference/TypeCheckingContext;Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;)V" />
+      <scope id="3774406643936503615" at="22,49,22,49" />
+      <scope id="3774406643936524070" at="33,14,33,14" />
+      <scope id="3774406643936503615" at="37,50,38,36" />
+      <scope id="3774406643936503615" at="40,68,41,102" />
+      <scope id="3774406643936503615" at="43,30,44,17" />
+      <scope id="3774406643936503615" at="22,0,24,0" />
+      <scope id="3774406643936523982" at="28,11,30,231">
+        <var name="_reporter_2309309498" id="3774406643936523982" />
+        <var name="errorTarget" id="3774406643936523982" />
+      </scope>
+      <scope id="3774406643936503615" at="37,0,40,0" />
+      <scope id="3774406643936503615" at="40,0,43,0">
+        <var name="argument" id="3774406643936503615" />
+      </scope>
+      <scope id="3774406643936503615" at="43,0,46,0" />
+      <scope id="3774406643936519293" at="27,74,31,11" />
+      <scope id="3774406643936518209" at="26,55,32,9" />
+      <scope id="3774406643936503641" at="25,106,34,7" />
+      <scope id="3774406643936503616" at="24,125,35,5" />
+      <scope id="3774406643936503638" at="24,125,35,5">
+        <var name="br" id="3774406643936503639" />
+      </scope>
+      <scope id="3774406643936503615" at="24,0,37,0">
+        <var name="ifExpression" id="3774406643936503615" />
+        <var name="status" id="3774406643936503615" />
+        <var name="typeCheckingContext" id="3774406643936503615" />
+      </scope>
+      <unit id="3774406643936503615" at="52,0,55,0" name="nl.veldhvz.conditionals.typesystem.check_IfExpression_NonTypesystemRule$CONCEPTS" />
+      <unit id="3774406643936503615" at="47,0,51,0" name="nl.veldhvz.conditionals.typesystem.check_IfExpression_NonTypesystemRule$LINKS" />
+      <unit id="3774406643936503615" at="21,0,56,0" name="nl.veldhvz.conditionals.typesystem.check_IfExpression_NonTypesystemRule" />
+    </file>
+  </root>
+</debug-info>
+

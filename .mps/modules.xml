@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MPSProject">
+    <projectModules>
+      <modulePath path="$PROJECT_DIR$/languages/nl.veldhvz.conditionals/nl.veldhvz.conditionals.mpl" folder="nl.veldhvz.conditionals" />
+      <modulePath path="$PROJECT_DIR$/languages/nl.veldhvz.letexpressions/nl.veldhvz.letexpressions.mpl" folder="nl.veldhvz.letexpressions" />
+      <modulePath path="$PROJECT_DIR$/solutions/conditionals.build/conditionals.build.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/nl.veldhvz.conditionals.sandbox/nl.veldhvz.conditionals.sandbox.msd" folder="nl.veldhvz.conditionals" />
+    </projectModules>
+  </component>
+</project>

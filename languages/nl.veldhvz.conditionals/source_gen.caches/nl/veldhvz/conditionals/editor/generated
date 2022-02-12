@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product version="3" modelHash="-57yl94vr0t7gpkc74ohcv2e5xi1j0t9">
+  <files names="Branch_Editor.java:Branch_EditorBuilder_a.java:DeleteBranch.java:EditorAspectDescriptorImpl.java:EnumCheck_Editor.java:EnumCheck_EditorBuilder_a.java:IfExpression_Editor.java:IfExpression_EditorBuilder_a.java:IsInstanceOf.java:IsInstanceOfExpression_Editor.java:IsInstanceOfExpression_EditorBuilder_a.java:NodeIsInstanceOfExpression_Editor.java:NodeIsInstanceOfExpression_EditorBuilder_a.java:SubjectReference_Editor.java:SubjectReference_EditorBuilder_a.java:SubjectReference_InspectorBuilder_a.java:SwitchExpression_Editor.java:SwitchExpression_EditorBuilder_a.java" />
+</product>
+

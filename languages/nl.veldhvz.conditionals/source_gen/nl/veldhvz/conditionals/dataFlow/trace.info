@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1144226303539:jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <root>
+    <file name="DataFlowAspectDescriptorImpl.java">
+      <unit at="15,0,40,0" name="nl.veldhvz.conditionals.dataFlow.DataFlowAspectDescriptorImpl" />
+    </file>
+  </root>
+  <root nodeRef="r:44bbab81-e87f-49da-9a1a-45802043bed6(nl.veldhvz.conditionals.dataFlow)/3116594940450508663">
+    <file name="SubjectReference_DataFlow.java">
+      <node id="3116594940450508683" at="10,60,11,223" concept="0" />
+      <node id="3116594940450508663" at="10,0,13,0" concept="2" trace="build#(Ljetbrains/mps/lang/dataFlow/DataFlowBuilderContext;)V" />
+      <scope id="3116594940450508665" at="10,60,11,223" />
+      <scope id="3116594940450508663" at="10,0,13,0">
+        <var name="_context" id="3116594940450508663" />
+      </scope>
+      <unit id="3116594940450508663" at="9,0,14,0" name="nl.veldhvz.conditionals.dataFlow.SubjectReference_DataFlow" />
+    </file>
+  </root>
+  <root nodeRef="r:44bbab81-e87f-49da-9a1a-45802043bed6(nl.veldhvz.conditionals.dataFlow)/3116594940450917752">
+    <file name="IfExpression_DataFlow.java">
+      <node id="3116594940450920361" at="15,112,16,46" concept="0" />
+      <node id="3116594940450917752" at="21,0,22,0" concept="3" trace="branch$VB31" />
+      <node id="3116594940450917772" at="14,60,17,5" concept="1" />
+      <node id="3116594940450917752" at="14,0,19,0" concept="2" trace="build#(Ljetbrains/mps/lang/dataFlow/DataFlowBuilderContext;)V" />
+      <scope id="3116594940450917775" at="15,112,16,46" />
+      <scope id="3116594940450917754" at="14,60,17,5" />
+      <scope id="3116594940450917772" at="14,60,17,5">
+        <var name="br" id="3116594940450917773" />
+      </scope>
+      <scope id="3116594940450917752" at="14,0,19,0">
+        <var name="_context" id="3116594940450917752" />
+      </scope>
+      <unit id="3116594940450917752" at="20,0,23,0" name="nl.veldhvz.conditionals.dataFlow.IfExpression_DataFlow$LINKS" />
+      <unit id="3116594940450917752" at="13,0,24,0" name="nl.veldhvz.conditionals.dataFlow.IfExpression_DataFlow" />
+    </file>
+  </root>
+  <root nodeRef="r:44bbab81-e87f-49da-9a1a-45802043bed6(nl.veldhvz.conditionals.dataFlow)/3774406643936000975">
+    <file name="EnumCheck_DataFlow.java">
+      <node id="3774406643936001006" at="13,60,14,114" concept="0" />
+      <node id="3774406643936000975" at="18,0,19,0" concept="3" trace="leftExpression$GG$V" />
+      <node id="3774406643936000975" at="13,0,16,0" concept="2" trace="build#(Ljetbrains/mps/lang/dataFlow/DataFlowBuilderContext;)V" />
+      <scope id="3774406643936000977" at="13,60,14,114" />
+      <scope id="3774406643936000975" at="13,0,16,0">
+        <var name="_context" id="3774406643936000975" />
+      </scope>
+      <unit id="3774406643936000975" at="17,0,20,0" name="nl.veldhvz.conditionals.dataFlow.EnumCheck_DataFlow$LINKS" />
+      <unit id="3774406643936000975" at="12,0,21,0" name="nl.veldhvz.conditionals.dataFlow.EnumCheck_DataFlow" />
+    </file>
+  </root>
+  <root nodeRef="r:44bbab81-e87f-49da-9a1a-45802043bed6(nl.veldhvz.conditionals.dataFlow)/3774406643936102499">
+    <file name="NodeIsInstanceOfExpression_DataFlow.java">
+      <node id="3774406643936102530" at="13,60,14,114" concept="0" />
+      <node id="3774406643936104889" at="14,114,15,115" concept="0" />
+      <node id="3774406643936102499" at="19,0,20,0" concept="3" trace="leftExpression$9JtL" />
+      <node id="3774406643936102499" at="20,0,21,0" concept="3" trace="conceptArgument$_OQ3" />
+      <node id="3774406643936102499" at="13,0,17,0" concept="2" trace="build#(Ljetbrains/mps/lang/dataFlow/DataFlowBuilderContext;)V" />
+      <scope id="3774406643936102501" at="13,60,15,115" />
+      <scope id="3774406643936102499" at="13,0,17,0">
+        <var name="_context" id="3774406643936102499" />
+      </scope>
+      <unit id="3774406643936102499" at="18,0,22,0" name="nl.veldhvz.conditionals.dataFlow.NodeIsInstanceOfExpression_DataFlow$LINKS" />
+      <unit id="3774406643936102499" at="12,0,23,0" name="nl.veldhvz.conditionals.dataFlow.NodeIsInstanceOfExpression_DataFlow" />
+    </file>
+  </root>
+  <root nodeRef="r:44bbab81-e87f-49da-9a1a-45802043bed6(nl.veldhvz.conditionals.dataFlow)/8418092870318046404">
+    <file name="SwitchExpression_DataFlow.java">
+      <node id="8418092870318048350" at="14,60,15,107" concept="0" />
+      <node id="8418092870318052049" at="16,112,17,46" concept="0" />
+      <node id="8418092870318046404" at="22,0,23,0" concept="3" trace="subject$rFoW" />
+      <node id="8418092870318046404" at="23,0,24,0" concept="3" trace="branch$VB31" />
+      <node id="8418092870318051304" at="15,107,18,5" concept="1" />
+      <node id="8418092870318046404" at="14,0,20,0" concept="2" trace="build#(Ljetbrains/mps/lang/dataFlow/DataFlowBuilderContext;)V" />
+      <scope id="8418092870318051310" at="16,112,17,46" />
+      <scope id="8418092870318051304" at="15,107,18,5">
+        <var name="br" id="8418092870318051306" />
+      </scope>
+      <scope id="8418092870318046406" at="14,60,18,5" />
+      <scope id="8418092870318046404" at="14,0,20,0">
+        <var name="_context" id="8418092870318046404" />
+      </scope>
+      <unit id="8418092870318046404" at="21,0,25,0" name="nl.veldhvz.conditionals.dataFlow.SwitchExpression_DataFlow$LINKS" />
+      <unit id="8418092870318046404" at="13,0,26,0" name="nl.veldhvz.conditionals.dataFlow.SwitchExpression_DataFlow" />
+    </file>
+  </root>
+  <root nodeRef="r:44bbab81-e87f-49da-9a1a-45802043bed6(nl.veldhvz.conditionals.dataFlow)/8418092870318072996">
+    <file name="Branch_DataFlow.java">
+      <node id="1206536662948" at="15,60,16,109" concept="0" />
+      <node id="1206536669330" at="16,109,17,176" concept="0" />
+      <node id="1206536674289" at="17,176,18,111" concept="0" />
+      <node id="1217865542485" at="20,25,21,253" concept="0" />
+      <node id="8418092870318072996" at="27,0,28,0" concept="3" trace="condition$fRkL" />
+      <node id="8418092870318072996" at="28,0,29,0" concept="3" trace="consequence$fRMN" />
+      <node id="8418092870318072996" at="32,0,33,0" concept="3" trace="IfExpression$Ot" />
+      <node id="1217865537592" at="20,0,23,0" concept="2" trace="run#()V" />
+      <node id="1217865537592" at="18,111,23,7" concept="0" />
+      <node id="8418092870318072996" at="15,0,25,0" concept="2" trace="build#(Ljetbrains/mps/lang/dataFlow/DataFlowBuilderContext;)V" />
+      <scope id="1217865537592" at="20,25,21,253" />
+      <scope id="1217865537592" at="20,0,23,0" />
+      <scope id="8418092870318072998" at="15,60,23,7" />
+      <scope id="8418092870318072996" at="15,0,25,0">
+        <var name="_context" id="8418092870318072996" />
+      </scope>
+      <unit id="8418092870318072996" at="31,0,34,0" name="nl.veldhvz.conditionals.dataFlow.Branch_DataFlow$CONCEPTS" />
+      <unit id="1217865537592" at="19,51,23,5" name="nl.veldhvz.conditionals.dataFlow.Branch_DataFlow$1" />
+      <unit id="8418092870318072996" at="26,0,30,0" name="nl.veldhvz.conditionals.dataFlow.Branch_DataFlow$LINKS" />
+      <unit id="8418092870318072996" at="14,0,35,0" name="nl.veldhvz.conditionals.dataFlow.Branch_DataFlow" />
+    </file>
+  </root>
+</debug-info>
+

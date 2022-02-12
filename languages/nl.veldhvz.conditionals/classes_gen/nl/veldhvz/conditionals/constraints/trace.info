@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1082485599095:jetbrains.mps.baseLanguage.structure.BlockStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123157:jetbrains.mps.baseLanguage.structure.Statement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081236700938:jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070475587102:jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+  <root>
+    <file name="ConstraintsAspectDescriptor.java">
+      <unit at="13,0,33,0" name="nl.veldhvz.conditionals.constraints.ConstraintsAspectDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:e66bc0ff-8b47-4f63-9e94-a2dd8cf8d3f2(nl.veldhvz.conditionals.constraints)/3774406643935986267">
+    <file name="EnumCheck_Constraints.java">
+      <node id="3774406643935986267" at="28,34,29,33" concept="10" />
+      <node id="3774406643935986279" at="40,63,41,138" concept="6" />
+      <node id="7135956939749253110" at="45,13,46,60" concept="5" />
+      <node id="7248171679866303283" at="48,17,49,142" concept="5" />
+      <node id="7248171679866311535" at="51,21,52,99" concept="5" />
+      <node id="7248171679866313550" at="53,91,54,123" concept="6" />
+      <node id="3774406643935992994" at="60,13,61,24" concept="6" />
+      <node id="3774406643935986267" at="65,6,66,131" concept="5" />
+      <node id="3774406643935986279" at="66,131,67,42" concept="2" />
+      <node id="3774406643935986267" at="67,42,68,22" concept="6" />
+      <node id="3774406643935986267" at="72,0,73,0" concept="8" trace="EnumCheck$$1" />
+      <node id="3774406643935986267" at="73,0,74,0" concept="8" trace="ClassifierType$bL" />
+      <node id="3774406643935986267" at="74,0,75,0" concept="8" trace="EnumClass$Vk" />
+      <node id="3774406643935986267" at="78,0,79,0" concept="8" trace="enum$68Ng" />
+      <node id="3774406643935986267" at="79,0,80,0" concept="8" trace="leftExpression$GG$V" />
+      <node id="3774406643935986267" at="80,0,81,0" concept="8" trace="classifier$cxMr" />
+      <node id="3774406643935986267" at="81,0,82,0" concept="8" trace="enumConstant$qtgW" />
+      <node id="3774406643935986267" at="28,0,31,0" concept="1" trace="EnumCheck_Constraints#()V" />
+      <node id="7248171679866311535" at="52,99,55,23" concept="3" />
+      <node id="3774406643935986279" at="39,0,43,0" concept="4" trace="getSearchScopeValidatorNode#()Lorg/jetbrains/mps/openapi/model/SNodeReference;" />
+      <node id="7248171679866311535" at="50,85,56,21" concept="0" />
+      <node id="7248171679866303283" at="49,142,57,19" concept="3" />
+      <node id="7248171679866303283" at="47,79,58,17" concept="0" />
+      <node id="7135956939749253110" at="46,60,59,15" concept="3" />
+      <node id="7135956939749253110" at="44,80,60,13" concept="0" />
+      <node id="3774406643935986279" at="43,0,63,0" concept="4" trace="createScope#(Ljetbrains/mps/smodel/runtime/ReferenceConstraintsContext;)Ljetbrains/mps/scope/Scope;" />
+      <node id="3774406643935986279" at="37,56,63,10" concept="6" />
+      <node id="3774406643935986279" at="35,0,65,0" concept="4" trace="getScopeProvider#()Ljetbrains/mps/smodel/runtime/ReferenceScopeProvider;" />
+      <node id="3774406643935986279" at="33,90,65,6" concept="5" />
+      <node id="3774406643935986267" at="32,0,70,0" concept="4" trace="getSpecifiedReferences#()Ljava/util/Map;" />
+      <scope id="3774406643935986267" at="28,34,29,33" />
+      <scope id="3774406643935986279" at="40,63,41,138" />
+      <scope id="7248171679866311545" at="53,91,54,123" />
+      <scope id="3774406643935986267" at="28,0,31,0" />
+      <scope id="3774406643935986279" at="39,0,43,0" />
+      <scope id="7248171679866311535" at="51,21,55,23">
+        <var name="enumClass" id="7248171679866311535" />
+      </scope>
+      <scope id="7248171679866303293" at="50,85,56,21" />
+      <scope id="7248171679866303283" at="48,17,57,19">
+        <var name="ct" id="7248171679866303283" />
+      </scope>
+      <scope id="7135956939749253122" at="47,79,58,17" />
+      <scope id="7135956939749253110" at="45,13,59,15">
+        <var name="check" id="7135956939749253110" />
+      </scope>
+      <scope id="3774406643935986279" at="44,80,61,24" />
+      <scope id="3774406643935986279" at="43,0,63,0">
+        <var name="_context" id="3774406643935986279" />
+      </scope>
+      <scope id="3774406643935986279" at="37,56,63,10" />
+      <scope id="3774406643935986279" at="35,0,65,0" />
+      <scope id="3774406643935986267" at="33,90,68,22">
+        <var name="d0" id="3774406643935986279" />
+        <var name="references" id="3774406643935986267" />
+      </scope>
+      <scope id="3774406643935986267" at="32,0,70,0" />
+      <unit id="3774406643935986267" at="71,0,76,0" name="nl.veldhvz.conditionals.constraints.EnumCheck_Constraints$CONCEPTS" />
+      <unit id="3774406643935986267" at="77,0,83,0" name="nl.veldhvz.conditionals.constraints.EnumCheck_Constraints$LINKS" />
+      <unit id="3774406643935986279" at="38,19,63,9" name="nl.veldhvz.conditionals.constraints.EnumCheck_Constraints$1$1" />
+      <unit id="3774406643935986279" at="34,48,65,5" name="nl.veldhvz.conditionals.constraints.EnumCheck_Constraints$1" />
+      <unit id="3774406643935986267" at="27,0,84,0" name="nl.veldhvz.conditionals.constraints.EnumCheck_Constraints" />
+    </file>
+  </root>
+  <root nodeRef="r:e66bc0ff-8b47-4f63-9e94-a2dd8cf8d3f2(nl.veldhvz.conditionals.constraints)/4199042772078540531">
+    <file name="Subject_Constraints.java">
+      <node id="4199042772078540531" at="17,32,18,31" concept="10" />
+      <node id="4199042772078540532" at="22,59,23,60" concept="10" />
+      <node id="4199042772078540962" at="26,40,27,18" concept="6" />
+      <node id="4199042772078540531" at="31,84,32,119" concept="5" />
+      <node id="4199042772078540532" at="32,119,33,61" concept="2" />
+      <node id="4199042772078540531" at="33,61,34,22" concept="6" />
+      <node id="4199042772078540531" at="38,0,39,0" concept="8" trace="Subject$Tl" />
+      <node id="4199042772078540531" at="42,0,43,0" concept="8" trace="name$MnvL" />
+      <node id="4199042772078540531" at="17,0,20,0" concept="1" trace="Subject_Constraints#()V" />
+      <node id="4199042772078540532" at="22,0,25,0" concept="1" trace="Name_Property#(Ljetbrains/mps/smodel/runtime/ConstraintsDescriptor;)V" />
+      <node id="4199042772078540532" at="25,0,29,0" concept="4" trace="getValue#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/Object;" />
+      <node id="4199042772078540531" at="30,0,36,0" concept="4" trace="getSpecifiedProperties#()Ljava/util/Map;" />
+      <scope id="4199042772078540531" at="17,32,18,31" />
+      <scope id="4199042772078540532" at="22,59,23,60" />
+      <scope id="4199042772078540621" at="26,40,27,18" />
+      <scope id="4199042772078540531" at="17,0,20,0" />
+      <scope id="4199042772078540532" at="22,0,25,0">
+        <var name="container" id="4199042772078540532" />
+      </scope>
+      <scope id="4199042772078540531" at="31,84,34,22">
+        <var name="properties" id="4199042772078540531" />
+      </scope>
+      <scope id="4199042772078540532" at="25,0,29,0">
+        <var name="node" id="4199042772078540532" />
+      </scope>
+      <scope id="4199042772078540531" at="30,0,36,0" />
+      <unit id="4199042772078540531" at="37,0,40,0" name="nl.veldhvz.conditionals.constraints.Subject_Constraints$CONCEPTS" />
+      <unit id="4199042772078540531" at="41,0,44,0" name="nl.veldhvz.conditionals.constraints.Subject_Constraints$PROPS" />
+      <unit id="4199042772078540532" at="21,0,30,0" name="nl.veldhvz.conditionals.constraints.Subject_Constraints$Name_Property" />
+      <unit id="4199042772078540531" at="16,0,45,0" name="nl.veldhvz.conditionals.constraints.Subject_Constraints" />
+    </file>
+  </root>
+  <root nodeRef="r:e66bc0ff-8b47-4f63-9e94-a2dd8cf8d3f2(nl.veldhvz.conditionals.constraints)/8418092870318737180">
+    <file name="IfExpression_Constraints.java">
+      <node id="8418092870318737180" at="20,37,21,36" concept="10" />
+      <node id="8418092870318737180" at="28,127,29,128" concept="5" />
+      <node id="8418092870318737180" at="29,128,30,0" concept="7" />
+      <node id="8418092870318737180" at="31,55,32,71" concept="2" />
+      <node id="8418092870318737180" at="33,9,34,0" concept="7" />
+      <node id="8418092870318737180" at="34,0,35,22" concept="6" />
+      <node id="3116594940450284872" at="39,128,40,82" concept="6" />
+      <node id="8418092870318737180" at="42,0,43,0" concept="8" trace="canBeChildBreakingPoint" />
+      <node id="8418092870318737180" at="45,0,46,0" concept="8" trace="IfExpression$Ot" />
+      <node id="8418092870318737180" at="46,0,47,0" concept="8" trace="StatementList$m_" />
+      <node id="8418092870318737180" at="20,0,23,0" concept="1" trace="IfExpression_Constraints#()V" />
+      <node id="8418092870318737180" at="30,0,33,9" concept="3" />
+      <node id="8418092870318737180" at="39,0,42,0" concept="9" trace="staticCanBeAChild#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/language/SAbstractConcept;Lorg/jetbrains/mps/openapi/language/SContainmentLink;)Z" />
+      <node id="8418092870318737180" at="27,0,37,0" concept="4" trace="invoke#(Ljetbrains/mps/smodel/runtime/ConstraintContext_CanBeChild;Ljetbrains/mps/smodel/runtime/CheckingNodeContext;)Ljava/lang/Boolean;" />
+      <node id="8418092870318737180" at="25,103,37,6" concept="6" />
+      <node id="8418092870318737180" at="24,0,39,0" concept="4" trace="calculateCanBeChildConstraint#()Ljetbrains/mps/smodel/runtime/ConstraintFunction;" />
+      <scope id="8418092870318737180" at="20,37,21,36" />
+      <scope id="8418092870318737180" at="31,55,32,71" />
+      <scope id="8418092870318737182" at="39,128,40,82" />
+      <scope id="8418092870318737180" at="20,0,23,0" />
+      <scope id="8418092870318737180" at="39,0,42,0">
+        <var name="childConcept" id="8418092870318737180" />
+        <var name="link" id="8418092870318737180" />
+        <var name="node" id="8418092870318737180" />
+        <var name="parentNode" id="8418092870318737180" />
+      </scope>
+      <scope id="8418092870318737180" at="28,127,35,22">
+        <var name="result" id="8418092870318737180" />
+      </scope>
+      <scope id="8418092870318737180" at="27,0,37,0">
+        <var name="checkingNodeContext" id="8418092870318737180" />
+        <var name="context" id="8418092870318737180" />
+      </scope>
+      <scope id="8418092870318737180" at="25,103,37,6" />
+      <scope id="8418092870318737180" at="24,0,39,0" />
+      <unit id="8418092870318737180" at="44,0,48,0" name="nl.veldhvz.conditionals.constraints.IfExpression_Constraints$CONCEPTS" />
+      <unit id="8418092870318737180" at="26,15,37,5" name="nl.veldhvz.conditionals.constraints.IfExpression_Constraints$1" />
+      <unit id="8418092870318737180" at="19,0,49,0" name="nl.veldhvz.conditionals.constraints.IfExpression_Constraints" />
+    </file>
+  </root>
+</debug-info>
+
