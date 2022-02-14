@@ -7,6 +7,7 @@
   </languages>
   <imports>
     <import index="ffeo" ref="r:874d959d-e3b4-4d04-b931-ca849af130dd(jetbrains.mps.ide.build)" />
+    <import index="hmdg" ref="r:ae1a3ca0-e482-48ac-b792-a024db401dac(nl.veldhvz.smartcasts.build)" />
   </imports>
   <registry>
     <language id="479c7a8c-02f9-43b5-9139-d910cb22f298" name="jetbrains.mps.core.xml">
@@ -155,40 +156,11 @@
       </node>
     </node>
     <node concept="2sgV4H" id="3PT14dZZKs$" role="1l3spa">
-      <ref role="1l3spb" to="ffeo:5yMuYWFN8P1" resolve="mpsPlugins" />
+      <ref role="1l3spb" to="hmdg:5rfTprUa0Xo" resolve="smartcasts" />
       <node concept="398BVA" id="3XWpnsRt8A6" role="2JcizS">
         <ref role="398BVh" node="3XWpnsRt8_W" resolve="plugins" />
         <node concept="2Ry0Ak" id="3XWpnsRt8Ab" role="iGT6I">
           <property role="2Ry0Am" value="smartcasts.zip" />
-        </node>
-      </node>
-    </node>
-    <node concept="2sgV4H" id="3XWpnsRt8Ak" role="1l3spa">
-      <ref role="1l3spb" to="ffeo:5rNMDvYzelV" resolve="mpsMakePlugin" />
-      <node concept="55IIr" id="3XWpnsRt8As" role="2JcizS">
-        <node concept="2Ry0Ak" id="3XWpnsRt8Ax" role="iGT6I">
-          <property role="2Ry0Am" value=".." />
-          <node concept="2Ry0Ak" id="3XWpnsRt8A$" role="2Ry0An">
-            <property role="2Ry0Am" value=".." />
-            <node concept="2Ry0Ak" id="3XWpnsRt8AB" role="2Ry0An">
-              <property role="2Ry0Am" value="AppData" />
-              <node concept="2Ry0Ak" id="3XWpnsRt8AK" role="2Ry0An">
-                <property role="2Ry0Am" value="Local" />
-                <node concept="2Ry0Ak" id="3XWpnsRt8AN" role="2Ry0An">
-                  <property role="2Ry0Am" value="JetBrains" />
-                  <node concept="2Ry0Ak" id="3XWpnsRt8AS" role="2Ry0An">
-                    <property role="2Ry0Am" value="MPS2021.2" />
-                    <node concept="2Ry0Ak" id="3XWpnsRt8AX" role="2Ry0An">
-                      <property role="2Ry0Am" value="plugins" />
-                      <node concept="2Ry0Ak" id="3XWpnsRt8B2" role="2Ry0An">
-                        <property role="2Ry0Am" value="smartcasts.zip" />
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
         </node>
       </node>
     </node>
@@ -222,6 +194,9 @@
       </node>
       <node concept="m$_yC" id="5rSvAAOn3X0" role="m$_yJ">
         <ref role="m$_y1" to="ffeo:4k71ibbKLe8" />
+      </node>
+      <node concept="m$_yC" id="3$rhB$ivAIc" role="m$_yJ">
+        <ref role="m$_y1" to="hmdg:5rfTprUa0XF" resolve="smartcasts" />
       </node>
       <node concept="3_J27D" id="5rSvAAOn3X1" role="m_cZH">
         <node concept="3Mxwew" id="5rSvAAOn3X2" role="3MwsjC">
@@ -382,6 +357,11 @@
             <node concept="3qWCbU" id="5rSvAAOn4on" role="3LXTna">
               <property role="3qWCbO" value="icons/**" />
             </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="3XWpnsRtLIk" role="3bR37C">
+          <node concept="1Busua" id="3XWpnsRtLIl" role="1SiIV1">
+            <ref role="1Busuk" to="hmdg:6rPy59ke69s" resolve="nl.veldhvz.smartcasts" />
           </node>
         </node>
       </node>
