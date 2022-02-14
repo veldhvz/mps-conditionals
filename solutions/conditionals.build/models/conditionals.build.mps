@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model ref="r:6a1be25f-80b0-4a87-86f6-78b3e8c52f01(conditionals.build)">
   <persistence version="9" />
+  <attribute name="doNotGenerate" value="false" />
   <languages>
     <use id="798100da-4f0a-421a-b991-71f8c50ce5d2" name="jetbrains.mps.build" version="0" />
     <use id="0cf935df-4699-4e9c-a132-fa109541cba3" name="jetbrains.mps.build.mps" version="7" />
@@ -195,9 +196,6 @@
       <node concept="m$_yC" id="5rSvAAOn3X0" role="m$_yJ">
         <ref role="m$_y1" to="ffeo:4k71ibbKLe8" />
       </node>
-      <node concept="m$_yC" id="3$rhB$ivAIc" role="m$_yJ">
-        <ref role="m$_y1" to="hmdg:5rfTprUa0XF" resolve="smartcasts" />
-      </node>
       <node concept="3_J27D" id="5rSvAAOn3X1" role="m_cZH">
         <node concept="3Mxwew" id="5rSvAAOn3X2" role="3MwsjC">
           <property role="3MwjfP" value="Conditionals" />
@@ -211,6 +209,9 @@
       </node>
       <node concept="2iUeEo" id="5rSvAAOn4jI" role="2iVFfd">
         <property role="2iUeEt" value="Gert Veldhuijzen van Zanten" />
+      </node>
+      <node concept="m$_yC" id="3$rhB$ivAIc" role="m$_yJ">
+        <ref role="m$_y1" to="hmdg:5rfTprUa0XF" resolve="smartcasts" />
       </node>
     </node>
     <node concept="2G$12M" id="5rSvAAOn3WT" role="3989C9">
