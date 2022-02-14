@@ -13,6 +13,7 @@
   <sourcePath />
   <dependencies>
     <dependency reexport="false">422c2909-59d6-41a9-b318-40e6256b250f(jetbrains.mps.ide.build)</dependency>
+    <dependency reexport="false">b14c2726-ae90-4a7e-ac63-cc77aee6d28c(nl.veldhvz.smartcasts.build)</dependency>
   </dependencies>
   <languageVersions>
     <language slang="l:798100da-4f0a-421a-b991-71f8c50ce5d2:jetbrains.mps.build" version="0" />
@@ -22,6 +23,7 @@
   <dependencyVersions>
     <module reference="6975eec1-990c-4e93-86ab-82bf62a855fe(conditionals.build)" version="0" />
     <module reference="422c2909-59d6-41a9-b318-40e6256b250f(jetbrains.mps.ide.build)" version="0" />
+    <module reference="b14c2726-ae90-4a7e-ac63-cc77aee6d28c(nl.veldhvz.smartcasts.build)" version="0" />
   </dependencyVersions>
 </solution>
 
