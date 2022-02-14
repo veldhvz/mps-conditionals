@@ -41,7 +41,9 @@
       <concept id="7389400916848050060" name="jetbrains.mps.build.structure.BuildLayout_NamedContainer" flags="ng" index="3981dR">
         <child id="4380385936562148502" name="containerName" index="Nbhlr" />
       </concept>
-      <concept id="7389400916848136194" name="jetbrains.mps.build.structure.BuildFolderMacro" flags="ng" index="398rNT" />
+      <concept id="7389400916848136194" name="jetbrains.mps.build.structure.BuildFolderMacro" flags="ng" index="398rNT">
+        <child id="7389400916848144618" name="defaultPath" index="398pKh" />
+      </concept>
       <concept id="7389400916848153117" name="jetbrains.mps.build.structure.BuildSourceMacroRelativePath" flags="ng" index="398BVA">
         <reference id="7389400916848153130" name="macro" index="398BVh" />
       </concept>
@@ -142,6 +144,26 @@
   <node concept="1l3spW" id="5rSvAAOn3Wx">
     <property role="TrG5h" value="conditionals" />
     <property role="2DA0ip" value="../.." />
+    <node concept="398rNT" id="3$rhB$ivH6G" role="1l3spd">
+      <property role="TrG5h" value="smartcast.artefacts" />
+      <node concept="55IIr" id="3$rhB$ivH6L" role="398pKh">
+        <node concept="2Ry0Ak" id="3$rhB$ivH6O" role="iGT6I">
+          <property role="2Ry0Am" value=".." />
+          <node concept="2Ry0Ak" id="3$rhB$ivH6T" role="2Ry0An">
+            <property role="2Ry0Am" value="SmartCasts" />
+            <node concept="2Ry0Ak" id="3$rhB$ivH6W" role="2Ry0An">
+              <property role="2Ry0Am" value="build" />
+              <node concept="2Ry0Ak" id="3$rhB$ivH71" role="2Ry0An">
+                <property role="2Ry0Am" value="artifacts" />
+                <node concept="2Ry0Ak" id="3$rhB$ivH76" role="2Ry0An">
+                  <property role="2Ry0Am" value="smartcasts" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="398rNT" id="3XWpnsRt8_W" role="1l3spd">
       <property role="TrG5h" value="plugins" />
     </node>
@@ -159,10 +181,7 @@
     <node concept="2sgV4H" id="3PT14dZZKs$" role="1l3spa">
       <ref role="1l3spb" to="hmdg:5rfTprUa0Xo" resolve="smartcasts" />
       <node concept="398BVA" id="3XWpnsRt8A6" role="2JcizS">
-        <ref role="398BVh" node="3XWpnsRt8_W" resolve="plugins" />
-        <node concept="2Ry0Ak" id="3XWpnsRt8Ab" role="iGT6I">
-          <property role="2Ry0Am" value="smartcasts.zip" />
-        </node>
+        <ref role="398BVh" node="3$rhB$ivH6G" resolve="smartcast.artefacts" />
       </node>
     </node>
     <node concept="1l3spV" id="5rSvAAOn3X7" role="1l3spN">
@@ -447,6 +466,21 @@
               <node concept="3qWCbU" id="5rSvAAOn3Ya" role="3LXTna">
                 <property role="3qWCbO" value="**/*.mps, **/*.mpsr, **/.model" />
               </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3rtmxn" id="3$rhB$ivTio" role="3bR31x">
+          <node concept="3LXTmp" id="3$rhB$ivTip" role="3rtmxm">
+            <node concept="55IIr" id="3$rhB$ivTiq" role="3LXTmr">
+              <node concept="2Ry0Ak" id="3$rhB$ivTir" role="iGT6I">
+                <property role="2Ry0Am" value="languages" />
+                <node concept="2Ry0Ak" id="3$rhB$ivTis" role="2Ry0An">
+                  <property role="2Ry0Am" value="nl.veldhvz.letexpressions" />
+                </node>
+              </node>
+            </node>
+            <node concept="3qWCbU" id="3$rhB$ivTiu" role="3LXTna">
+              <property role="3qWCbO" value="icons/**" />
             </node>
           </node>
         </node>
