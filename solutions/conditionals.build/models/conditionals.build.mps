@@ -12,9 +12,18 @@
   </imports>
   <registry>
     <language id="479c7a8c-02f9-43b5-9139-d910cb22f298" name="jetbrains.mps.core.xml">
+      <concept id="6666499814681541919" name="jetbrains.mps.core.xml.structure.XmlTextValue" flags="ng" index="2pMdtt">
+        <property id="6666499814681541920" name="text" index="2pMdty" />
+      </concept>
       <concept id="6666499814681415858" name="jetbrains.mps.core.xml.structure.XmlElement" flags="ng" index="2pNNFK">
         <property id="6666499814681415862" name="tagName" index="2pNNFO" />
+        <property id="6999033275467544021" name="shortEmptyNotation" index="qg3DV" />
+        <child id="6666499814681415861" name="attributes" index="2pNNFR" />
         <child id="1622293396948928802" name="content" index="3o6s8t" />
+      </concept>
+      <concept id="6666499814681447923" name="jetbrains.mps.core.xml.structure.XmlAttribute" flags="ng" index="2pNUuL">
+        <property id="6666499814681447926" name="attrName" index="2pNUuO" />
+        <child id="6666499814681541918" name="value" index="2pMdts" />
       </concept>
       <concept id="1622293396948952339" name="jetbrains.mps.core.xml.structure.XmlText" flags="nn" index="3o6iSG">
         <property id="1622293396948953704" name="value" index="3o6i5n" />
@@ -224,6 +233,22 @@
         <property role="2pNNFO" value="depends" />
         <node concept="3o6iSG" id="5rSvAAOn3X4" role="3o6s8t">
           <property role="3o6i5n" value="com.intellij.modules.platform" />
+        </node>
+      </node>
+      <node concept="2pNNFK" id="38faPN40dyq" role="20twgj">
+        <property role="2pNNFO" value="idea-version" />
+        <property role="qg3DV" value="true" />
+        <node concept="2pNUuL" id="38faPN40dyx" role="2pNNFR">
+          <property role="2pNUuO" value="since-build" />
+          <node concept="2pMdtt" id="38faPN40dyy" role="2pMdts">
+            <property role="2pMdty" value="212.5" />
+          </node>
+        </node>
+        <node concept="2pNUuL" id="38faPN40dyB" role="2pNNFR">
+          <property role="2pNUuO" value="until-build" />
+          <node concept="2pMdtt" id="38faPN40dyC" role="2pMdts">
+            <property role="2pMdty" value="212.*" />
+          </node>
         </node>
       </node>
       <node concept="2iUeEo" id="5rSvAAOn4jI" role="2iVFfd">
