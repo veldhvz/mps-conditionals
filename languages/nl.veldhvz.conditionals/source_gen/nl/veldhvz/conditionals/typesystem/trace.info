@@ -12,15 +12,16 @@
   <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081236700938:jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
   <root>
     <file name="TypesystemDescriptor.java">
-      <unit at="9,0,33,0" name="nl.veldhvz.conditionals.typesystem.TypesystemDescriptor" />
+      <unit at="66,0,69,0" name="nl.veldhvz.conditionals.typesystem.TypesystemDescriptor$CONCEPTS" />
+      <unit at="15,0,70,0" name="nl.veldhvz.conditionals.typesystem.TypesystemDescriptor" />
     </file>
   </root>
   <root nodeRef="r:09de3c41-2764-49e7-9ad7-4a60e4b0505f(nl.veldhvz.conditionals.typesystem)/3116594940450405035">
     <file name="TypesystemDescriptor.java">
-      <node id="3116594940450405035" at="15,5,16,84" concept="6" />
-      <node id="3116594940450405035" at="16,84,17,47" concept="2" />
-      <node id="3116594940450405035" at="14,5,18,5" concept="0" />
-      <scope id="3116594940450405035" at="15,5,17,47">
+      <node id="3116594940450405035" at="21,5,22,84" concept="6" />
+      <node id="3116594940450405035" at="22,84,23,47" concept="2" />
+      <node id="3116594940450405035" at="20,5,24,5" concept="0" />
+      <scope id="3116594940450405035" at="21,5,23,47">
         <var name="inferenceRule" id="3116594940450405035" />
       </scope>
     </file>
@@ -72,10 +73,10 @@
   </root>
   <root nodeRef="r:09de3c41-2764-49e7-9ad7-4a60e4b0505f(nl.veldhvz.conditionals.typesystem)/3116594940450439644">
     <file name="TypesystemDescriptor.java">
-      <node id="3116594940450439644" at="23,5,24,88" concept="6" />
-      <node id="3116594940450439644" at="24,88,25,47" concept="2" />
-      <node id="3116594940450439644" at="22,5,26,5" concept="0" />
-      <scope id="3116594940450439644" at="23,5,25,47">
+      <node id="3116594940450439644" at="29,5,30,88" concept="6" />
+      <node id="3116594940450439644" at="30,88,31,47" concept="2" />
+      <node id="3116594940450439644" at="28,5,32,5" concept="0" />
+      <scope id="3116594940450439644" at="29,5,31,47">
         <var name="inferenceRule" id="3116594940450439644" />
       </scope>
     </file>
@@ -134,10 +135,10 @@
   </root>
   <root nodeRef="r:09de3c41-2764-49e7-9ad7-4a60e4b0505f(nl.veldhvz.conditionals.typesystem)/3774406643935999817">
     <file name="TypesystemDescriptor.java">
-      <node id="3774406643935999817" at="11,5,12,81" concept="6" />
-      <node id="3774406643935999817" at="12,81,13,47" concept="2" />
-      <node id="3774406643935999817" at="10,33,14,5" concept="0" />
-      <scope id="3774406643935999817" at="11,5,13,47">
+      <node id="3774406643935999817" at="17,5,18,81" concept="6" />
+      <node id="3774406643935999817" at="18,81,19,47" concept="2" />
+      <node id="3774406643935999817" at="16,33,20,5" concept="0" />
+      <scope id="3774406643935999817" at="17,5,19,47">
         <var name="inferenceRule" id="3774406643935999817" />
       </scope>
     </file>
@@ -191,10 +192,10 @@
   </root>
   <root nodeRef="r:09de3c41-2764-49e7-9ad7-4a60e4b0505f(nl.veldhvz.conditionals.typesystem)/3774406643936115725">
     <file name="TypesystemDescriptor.java">
-      <node id="3774406643936115725" at="19,5,20,98" concept="6" />
-      <node id="3774406643936115725" at="20,98,21,47" concept="2" />
-      <node id="3774406643936115725" at="18,5,22,5" concept="0" />
-      <scope id="3774406643936115725" at="19,5,21,47">
+      <node id="3774406643936115725" at="25,5,26,98" concept="6" />
+      <node id="3774406643936115725" at="26,98,27,47" concept="2" />
+      <node id="3774406643936115725" at="24,5,28,5" concept="0" />
+      <scope id="3774406643936115725" at="25,5,27,47">
         <var name="inferenceRule" id="3774406643936115725" />
       </scope>
     </file>
@@ -248,10 +249,10 @@
   </root>
   <root nodeRef="r:09de3c41-2764-49e7-9ad7-4a60e4b0505f(nl.veldhvz.conditionals.typesystem)/3774406643936503615">
     <file name="TypesystemDescriptor.java">
-      <node id="3774406643936503615" at="27,5,28,95" concept="6" />
-      <node id="3774406643936503615" at="28,95,29,55" concept="2" />
-      <node id="3774406643936503615" at="26,5,30,5" concept="0" />
-      <scope id="3774406643936503615" at="27,5,29,55">
+      <node id="3774406643936503615" at="33,5,34,95" concept="6" />
+      <node id="3774406643936503615" at="34,95,35,55" concept="2" />
+      <node id="3774406643936503615" at="32,5,36,5" concept="0" />
+      <scope id="3774406643936503615" at="33,5,35,55">
         <var name="nonTypesystemRule" id="3774406643936503615" />
       </scope>
     </file>
@@ -304,6 +305,49 @@
       <unit id="3774406643936503615" at="52,0,55,0" name="nl.veldhvz.conditionals.typesystem.check_IfExpression_NonTypesystemRule$CONCEPTS" />
       <unit id="3774406643936503615" at="47,0,51,0" name="nl.veldhvz.conditionals.typesystem.check_IfExpression_NonTypesystemRule$LINKS" />
       <unit id="3774406643936503615" at="21,0,56,0" name="nl.veldhvz.conditionals.typesystem.check_IfExpression_NonTypesystemRule" />
+    </file>
+  </root>
+  <root nodeRef="r:09de3c41-2764-49e7-9ad7-4a60e4b0505f(nl.veldhvz.conditionals.typesystem)/6959674989121571547">
+    <file name="TypesystemDescriptor.java">
+      <node id="6959674989121571550" at="39,9,40,79" concept="2" />
+      <node id="6959674989121571550" at="40,79,41,65" concept="2" />
+      <node id="6959674989121571550" at="41,65,42,37" concept="2" />
+      <node id="6959674989121571550" at="42,37,43,34" concept="2" />
+      <node id="6959674989121571550" at="43,34,44,108" concept="2" />
+      <node id="6959674989121571550" at="44,108,45,52" concept="2" />
+      <node id="6959674989121571777" at="47,103,48,33" concept="7" />
+      <node id="6959674989121571550" at="51,75,52,63" concept="2" />
+      <node id="6959674989121571550" at="54,8,55,62" concept="2" />
+      <node id="3860149536565525587" at="58,72,59,30" concept="6" />
+      <node id="3860149536565525587" at="59,30,60,225" concept="6" />
+      <node id="3860149536565525587" at="60,225,61,34" concept="2" />
+      <node id="3860149536565525587" at="61,34,62,214" concept="2" />
+      <node id="3860149536565525587" at="62,214,63,24" concept="7" />
+      <node id="6959674989121571550" at="47,0,50,0" concept="5" trace="getOperationType#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;)Lorg/jetbrains/mps/openapi/model/SNode;" />
+      <node id="6959674989121571550" at="50,0,54,0" concept="5" trace="reportConflict#(Ljetbrains/mps/errors/IRuleConflictWarningProducer;)V" />
+      <node id="3860149536565525587" at="58,0,65,0" concept="9" trace="_quotation_createNode_3ist9o_a0a0a0a0a0a0a5a0#()Lorg/jetbrains/mps/openapi/model/SNode;" />
+      <node id="6959674989121571550" at="37,5,54,8" concept="6" />
+      <node id="6959674989121571550" at="36,5,56,5" concept="0" />
+      <scope id="6959674989121571552" at="47,103,48,33" />
+      <scope id="6959674989121571550" at="51,75,52,63" />
+      <scope id="6959674989121571550" at="47,0,50,0">
+        <var name="leftOperandType" id="6959674989121571550" />
+        <var name="operation" id="6959674989121571550" />
+        <var name="rightOperandType" id="6959674989121571550" />
+      </scope>
+      <scope id="6959674989121571550" at="50,0,54,0">
+        <var name="producer" id="6959674989121571550" />
+      </scope>
+      <scope id="3860149536565525587" at="58,72,63,24">
+        <var name="nb" id="3860149536565525587" />
+        <var name="quotedNode_1" id="3860149536565525587" />
+      </scope>
+      <scope id="6959674989121571550" at="39,9,45,52" />
+      <scope id="3860149536565525587" at="58,0,65,0" />
+      <scope id="6959674989121571550" at="37,5,55,62">
+        <var name="provider" id="6959674989121571550" />
+      </scope>
+      <unit id="6959674989121571550" at="38,60,54,7" name="nl.veldhvz.conditionals.typesystem.TypesystemDescriptor$1" />
     </file>
   </root>
 </debug-info>

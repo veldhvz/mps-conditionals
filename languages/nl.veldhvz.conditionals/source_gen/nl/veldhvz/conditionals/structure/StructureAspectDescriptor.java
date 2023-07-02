@@ -17,6 +17,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
   /*package*/ final ConceptDescriptor myConceptIfExpression = createDescriptorForIfExpression();
   /*package*/ final ConceptDescriptor myConceptIsInstanceOfExpression = createDescriptorForIsInstanceOfExpression();
   /*package*/ final ConceptDescriptor myConceptNodeIsInstanceOfExpression = createDescriptorForNodeIsInstanceOfExpression();
+  /*package*/ final ConceptDescriptor myConceptOrElseExpression = createDescriptorForOrElseExpression();
   /*package*/ final ConceptDescriptor myConceptSubject = createDescriptorForSubject();
   /*package*/ final ConceptDescriptor myConceptSubjectReference = createDescriptorForSubjectReference();
   /*package*/ final ConceptDescriptor myConceptSwitchExpression = createDescriptorForSwitchExpression();
@@ -36,7 +37,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
 
   @Override
   public Collection<ConceptDescriptor> getDescriptors() {
-    return Arrays.asList(myConceptBranch, myConceptEnumCheck, myConceptIfExpression, myConceptIsInstanceOfExpression, myConceptNodeIsInstanceOfExpression, myConceptSubject, myConceptSubjectReference, myConceptSwitchExpression);
+    return Arrays.asList(myConceptBranch, myConceptEnumCheck, myConceptIfExpression, myConceptIsInstanceOfExpression, myConceptNodeIsInstanceOfExpression, myConceptOrElseExpression, myConceptSubject, myConceptSubjectReference, myConceptSwitchExpression);
   }
 
   @Override
@@ -53,6 +54,8 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
         return myConceptIsInstanceOfExpression;
       case LanguageConceptSwitch.NodeIsInstanceOfExpression:
         return myConceptNodeIsInstanceOfExpression;
+      case LanguageConceptSwitch.OrElseExpression:
+        return myConceptOrElseExpression;
       case LanguageConceptSwitch.Subject:
         return myConceptSubject;
       case LanguageConceptSwitch.SubjectReference:
@@ -119,6 +122,15 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.aggregate("leftExpression", 0x630803075e1653a3L).target(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xf8c37f506fL).optional(true).ordered(true).multiple(false).origin("7135956939746726819").done();
     b.aggregate("conceptArgument", 0x1120c4c9bb4L).target(0x7866978ea0f04cc7L, 0x81bc4d213d9375e1L, 0x118f285e4f7L).optional(false).ordered(true).multiple(false).origin("1177027386292").done();
     b.alias("is");
+    return b.create();
+  }
+  private static ConceptDescriptor createDescriptorForOrElseExpression() {
+    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("nl.veldhvz.conditionals", "OrElseExpression", 0x29a56a408c094f5bL, 0x932d7da9f1e1d8ccL, 0x6095bb8756c0c28bL);
+    b.class_(false, false, false);
+    b.super_("jetbrains.mps.baseLanguage.structure.BinaryOperation", 0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0xfbdeb6fecfL);
+    b.origin("r:0702a173-7f34-45b5-b3f8-b841963e9648(nl.veldhvz.conditionals.structure)/6959674989121421963");
+    b.version(2);
+    b.alias("?:");
     return b.create();
   }
   private static ConceptDescriptor createDescriptorForSubject() {

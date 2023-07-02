@@ -14,6 +14,7 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
   private ConceptPresentation props_IfExpression;
   private ConceptPresentation props_IsInstanceOfExpression;
   private ConceptPresentation props_NodeIsInstanceOfExpression;
+  private ConceptPresentation props_OrElseExpression;
   private ConceptPresentation props_Subject;
   private ConceptPresentation props_SubjectReference;
   private ConceptPresentation props_SwitchExpression;
@@ -62,6 +63,13 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
           props_NodeIsInstanceOfExpression = cpb.create();
         }
         return props_NodeIsInstanceOfExpression;
+      case LanguageConceptSwitch.OrElseExpression:
+        if (props_OrElseExpression == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.rawPresentation("?:");
+          props_OrElseExpression = cpb.create();
+        }
+        return props_OrElseExpression;
       case LanguageConceptSwitch.Subject:
         if (props_Subject == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();

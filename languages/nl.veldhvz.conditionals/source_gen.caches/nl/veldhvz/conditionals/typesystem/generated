@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<product version="3" modelHash="3vtr6wfn0copu8947832rgx9tq06zam">
+<product version="3" modelHash="ejtdzel953g18xifzdxknoqhivfhsx0">
   <files names="TypesystemDescriptor.java:check_IfExpression_NonTypesystemRule.java:typeof_EnumCheck_InferenceRule.java:typeof_IfExpression_InferenceRule.java:typeof_NodeIsInstanceOfExpression_InferenceRule.java:typeof_SubjectReference_InferenceRule.java" />
 </product>
 

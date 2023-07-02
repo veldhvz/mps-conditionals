@@ -182,7 +182,7 @@
       <property role="TrG5h" value="mps_home" />
     </node>
     <node concept="2sgV4H" id="5rSvAAOn3W_" role="1l3spa">
-      <ref role="1l3spb" to="ffeo:3IKDaVZmzS6" />
+      <ref role="1l3spb" to="ffeo:3IKDaVZmzS6" resolve="mps" />
       <node concept="398BVA" id="5rSvAAOn3WA" role="2JcizS">
         <ref role="398BVh" node="5rSvAAOn3W$" resolve="mps_home" />
       </node>
@@ -201,13 +201,13 @@
           </node>
         </node>
         <node concept="m$_wl" id="5rSvAAOn3Xb" role="39821P">
-          <ref role="m_rDy" node="5rSvAAOn3WU" resolve="Conditionals" />
+          <ref role="m_rDy" node="5rSvAAOn3WU" resolve="conditionals" />
           <node concept="pUk6x" id="5rSvAAOn3Xc" role="pUk7w" />
         </node>
       </node>
     </node>
     <node concept="m$_wf" id="5rSvAAOn3WU" role="3989C9">
-      <property role="m$_wk" value="Conditionals" />
+      <property role="m$_wk" value="conditionals" />
       <node concept="3_J27D" id="5rSvAAOn3WV" role="m$_yQ">
         <node concept="3Mxwew" id="5rSvAAOn3WW" role="3MwsjC">
           <property role="3MwjfP" value="Conditionals" />
@@ -215,14 +215,14 @@
       </node>
       <node concept="3_J27D" id="5rSvAAOn3WX" role="m$_w8">
         <node concept="3Mxwew" id="5rSvAAOn3WY" role="3MwsjC">
-          <property role="3MwjfP" value="2021.2.3" />
+          <property role="3MwjfP" value="2022.3" />
         </node>
       </node>
       <node concept="m$f5U" id="5rSvAAOn3WZ" role="m$_yh">
         <ref role="m$f5T" node="5rSvAAOn3WT" resolve="Conditionals" />
       </node>
       <node concept="m$_yC" id="5rSvAAOn3X0" role="m$_yJ">
-        <ref role="m$_y1" to="ffeo:4k71ibbKLe8" />
+        <ref role="m$_y1" to="ffeo:4k71ibbKLe8" resolve="jetbrains.mps.core" />
       </node>
       <node concept="3_J27D" id="5rSvAAOn3X1" role="m_cZH">
         <node concept="3Mxwew" id="5rSvAAOn3X2" role="3MwsjC">
@@ -241,13 +241,13 @@
         <node concept="2pNUuL" id="38faPN40dyx" role="2pNNFR">
           <property role="2pNUuO" value="since-build" />
           <node concept="2pMdtt" id="38faPN40dyy" role="2pMdts">
-            <property role="2pMdty" value="212.3" />
+            <property role="2pMdty" value="223.0" />
           </node>
         </node>
         <node concept="2pNUuL" id="38faPN40dyB" role="2pNNFR">
           <property role="2pNUuO" value="until-build" />
           <node concept="2pMdtt" id="38faPN40dyC" role="2pMdts">
-            <property role="2pMdty" value="212.*" />
+            <property role="2pMdty" value="223.*" />
           </node>
         </node>
       </node>

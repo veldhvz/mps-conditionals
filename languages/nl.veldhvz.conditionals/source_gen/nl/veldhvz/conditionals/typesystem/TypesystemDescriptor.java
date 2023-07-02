@@ -5,6 +5,12 @@ package nl.veldhvz.conditionals.typesystem;
 import jetbrains.mps.lang.typesystem.runtime.BaseHelginsDescriptor;
 import jetbrains.mps.lang.typesystem.runtime.InferenceRule_Runtime;
 import jetbrains.mps.lang.typesystem.runtime.NonTypesystemRule_Runtime;
+import jetbrains.mps.lang.typesystem.runtime.OverloadedOpsProvider_OneTypeSpecified;
+import org.jetbrains.mps.openapi.model.SNode;
+import jetbrains.mps.errors.IRuleConflictWarningProducer;
+import jetbrains.mps.smodel.builder.SNodeBuilder;
+import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
+import org.jetbrains.mps.openapi.language.SConcept;
 
 public class TypesystemDescriptor extends BaseHelginsDescriptor {
   public TypesystemDescriptor() {
@@ -28,5 +34,36 @@ public class TypesystemDescriptor extends BaseHelginsDescriptor {
       NonTypesystemRule_Runtime nonTypesystemRule = new check_IfExpression_NonTypesystemRule();
       this.myNonTypesystemRules.add(nonTypesystemRule);
     }
+    {
+      OverloadedOpsProvider_OneTypeSpecified provider = new OverloadedOpsProvider_OneTypeSpecified() {
+        {
+          this.myOperandType = _quotation_createNode_3ist9o_a0a0a0a0a0a0a5a0();
+          this.myOperationConcept = CONCEPTS.OrElseExpression$zd;
+          this.myTypeIsExact = false;
+          this.myIsStrong = false;
+          this.myRuleModelId = "r:09de3c41-2764-49e7-9ad7-4a60e4b0505f(nl.veldhvz.conditionals.typesystem)";
+          this.myRuleNodeId = "6959674989121571548";
+        }
+        public SNode getOperationType(SNode operation, SNode leftOperandType, SNode rightOperandType) {
+          return leftOperandType;
+        }
+        @Override
+        public void reportConflict(IRuleConflictWarningProducer producer) {
+          producer.produceWarning(myRuleModelId, myRuleNodeId);
+        }
+      };
+      this.myOverloadedOperationsTypesProviders.add(provider);
+    }
+  }
+  private static SNode _quotation_createNode_3ist9o_a0a0a0a0a0a0a5a0() {
+    SNode quotedNode_1 = null;
+    SNodeBuilder nb = new SNodeBuilder(null, null).init(MetaAdapterFactory.getConcept(MetaAdapterFactory.getLanguage(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, "jetbrains.mps.baseLanguage"), 0x101de48bf9eL, "ClassifierType"));
+    quotedNode_1 = nb.getResult();
+    nb.setReference(MetaAdapterFactory.getReferenceLink(0xf3061a5392264cc5L, 0xa443f952ceaf5816L, 0x101de48bf9eL, 0x101de490babL, "classifier"), "6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)/~Object");
+    return quotedNode_1;
+  }
+
+  private static final class CONCEPTS {
+    /*package*/ static final SConcept OrElseExpression$zd = MetaAdapterFactory.getConcept(0x29a56a408c094f5bL, 0x932d7da9f1e1d8ccL, 0x6095bb8756c0c28bL, "nl.veldhvz.conditionals.structure.OrElseExpression");
   }
 }

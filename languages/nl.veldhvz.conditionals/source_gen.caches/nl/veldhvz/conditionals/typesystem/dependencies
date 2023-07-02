@@ -22,14 +22,22 @@
   <uses module="9ded098b-ad6a-4657-bfd9-48636cfe8bc3(jetbrains.mps.lang.traceable)" kind="dp" />
   <uses module="9a4afe51-f114-4595-b5df-048ce3c596be(jetbrains.mps.runtime)" kind="rt+dp" />
   <uses module="29a56a40-8c09-4f5b-932d-7da9f1e1d8cc(nl.veldhvz.conditionals)" kind="dp" />
+  <uses module="c45dae0d-3002-45a6-9357-a3abf67e30a3(nl.veldhvz.smartcasts)" kind="dp" />
   <dependency className="nl.veldhvz.conditionals.typesystem.TypesystemDescriptor">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="jetbrains.mps.errors.IRuleConflictWarningProducer" />
     <classNode dependClassName="jetbrains.mps.lang.typesystem.runtime.InferenceRule_Runtime" />
     <classNode dependClassName="jetbrains.mps.lang.typesystem.runtime.NonTypesystemRule_Runtime" />
+    <classNode dependClassName="jetbrains.mps.lang.typesystem.runtime.OverloadedOpsProvider_OneTypeSpecified" />
+    <classNode dependClassName="jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory" />
+    <classNode dependClassName="jetbrains.mps.smodel.builder.SNodeBuilder" />
     <classNode dependClassName="nl.veldhvz.conditionals.typesystem.check_IfExpression_NonTypesystemRule" />
     <classNode dependClassName="nl.veldhvz.conditionals.typesystem.typeof_EnumCheck_InferenceRule" />
     <classNode dependClassName="nl.veldhvz.conditionals.typesystem.typeof_IfExpression_InferenceRule" />
     <classNode dependClassName="nl.veldhvz.conditionals.typesystem.typeof_NodeIsInstanceOfExpression_InferenceRule" />
     <classNode dependClassName="nl.veldhvz.conditionals.typesystem.typeof_SubjectReference_InferenceRule" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.language.SConcept" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
     <classNode extendsClassName="jetbrains.mps.lang.typesystem.runtime.BaseHelginsDescriptor" />
   </dependency>
   <dependency className="nl.veldhvz.conditionals.typesystem.check_IfExpression_NonTypesystemRule">

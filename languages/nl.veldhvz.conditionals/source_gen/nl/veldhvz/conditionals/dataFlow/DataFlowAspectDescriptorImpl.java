@@ -28,12 +28,14 @@ public class DataFlowAspectDescriptorImpl extends DataFlowAspectDescriptorBase {
       case 3:
         return Collections.<IDataFlowBuilder>singletonList(new NodeIsInstanceOfExpression_DataFlow());
       case 4:
-        return Collections.<IDataFlowBuilder>singletonList(new SubjectReference_DataFlow());
+        return Collections.<IDataFlowBuilder>singletonList(new OrElseExpression_DataFlow());
       case 5:
+        return Collections.<IDataFlowBuilder>singletonList(new SubjectReference_DataFlow());
+      case 6:
         return Collections.<IDataFlowBuilder>singletonList(new SwitchExpression_DataFlow());
       default:
     }
     return Collections.<IDataFlowBuilder>emptyList();
   }
-  private static final ConceptSwitchIndex conceptIndex = new ConceptSwitchIndexBuilder().put(MetaIdFactory.conceptId(0x29a56a408c094f5bL, 0x932d7da9f1e1d8ccL, 0x3a45ff275a694c33L), MetaIdFactory.conceptId(0x29a56a408c094f5bL, 0x932d7da9f1e1d8ccL, 0x6496adbd8979a0c6L), MetaIdFactory.conceptId(0x29a56a408c094f5bL, 0x932d7da9f1e1d8ccL, 0x74d312dd558f179bL), MetaIdFactory.conceptId(0x29a56a408c094f5bL, 0x932d7da9f1e1d8ccL, 0x630803075e1653a2L), MetaIdFactory.conceptId(0x29a56a408c094f5bL, 0x932d7da9f1e1d8ccL, 0x74d312dd5586e304L), MetaIdFactory.conceptId(0x29a56a408c094f5bL, 0x932d7da9f1e1d8ccL, 0x74d312dd55967a8aL)).seal();
+  private static final ConceptSwitchIndex conceptIndex = new ConceptSwitchIndexBuilder().put(MetaIdFactory.conceptId(0x29a56a408c094f5bL, 0x932d7da9f1e1d8ccL, 0x3a45ff275a694c33L), MetaIdFactory.conceptId(0x29a56a408c094f5bL, 0x932d7da9f1e1d8ccL, 0x6496adbd8979a0c6L), MetaIdFactory.conceptId(0x29a56a408c094f5bL, 0x932d7da9f1e1d8ccL, 0x74d312dd558f179bL), MetaIdFactory.conceptId(0x29a56a408c094f5bL, 0x932d7da9f1e1d8ccL, 0x630803075e1653a2L), MetaIdFactory.conceptId(0x29a56a408c094f5bL, 0x932d7da9f1e1d8ccL, 0x6095bb8756c0c28bL), MetaIdFactory.conceptId(0x29a56a408c094f5bL, 0x932d7da9f1e1d8ccL, 0x74d312dd5586e304L), MetaIdFactory.conceptId(0x29a56a408c094f5bL, 0x932d7da9f1e1d8ccL, 0x74d312dd55967a8aL)).seal();
 }

@@ -2,7 +2,7 @@
 <model ref="r:a2d96d36-6f77-4799-8b8c-1fbe66b7043b(nl.veldhvz.conditionals.sandbox.example)">
   <persistence version="9" />
   <languages>
-    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="11" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="12" />
     <use id="c45dae0d-3002-45a6-9357-a3abf67e30a3" name="nl.veldhvz.smartcasts" version="0" />
     <use id="29a56a40-8c09-4f5b-932d-7da9f1e1d8cc" name="nl.veldhvz.conditionals" version="-1" />
   </languages>
@@ -95,6 +95,7 @@
       <concept id="8418092870318102427" name="nl.veldhvz.conditionals.structure.IfExpression" flags="ng" index="xn0l6">
         <child id="8418092870318144080" name="branch" index="xnayd" />
       </concept>
+      <concept id="6959674989121421963" name="nl.veldhvz.conditionals.structure.OrElseExpression" flags="ng" index="Qln$c" />
       <concept id="7135956939746646245" name="nl.veldhvz.conditionals.structure.IsInstanceOfExpression" flags="ng" index="X7hJy" />
       <concept id="7135956939746726818" name="nl.veldhvz.conditionals.structure.NodeIsInstanceOfExpression" flags="ng" index="X7_2_">
         <child id="1177027386292" name="conceptArgument" index="cj9EA" />
@@ -266,16 +267,40 @@
             </node>
           </node>
         </node>
+        <node concept="3cpWs8" id="62lIStmLbEP" role="3cqZAp">
+          <node concept="3cpWsn" id="62lIStmLbEQ" role="3cpWs9">
+            <property role="TrG5h" value="node" />
+            <node concept="3Tqbb2" id="62lIStmLb_3" role="1tU5fm">
+              <ref role="ehGHo" to="tpee:fz3vP1J" resolve="Expression" />
+            </node>
+            <node concept="Qln$c" id="62lIStmLbER" role="33vP2m">
+              <node concept="10Nm6u" id="62lIStmLbES" role="3uHU7w" />
+              <node concept="37vLTw" id="62lIStmLbET" role="3uHU7B">
+                <ref role="3cqZAo" node="5rSvAAOie$z" resolve="expr" />
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3clFbF" id="5rSvAAOivv8" role="3cqZAp">
           <node concept="2OqwBi" id="5rSvAAOivv5" role="3clFbG">
             <node concept="10M0yZ" id="5rSvAAOivv6" role="2Oq$k0">
-              <ref role="1PxDUh" to="wyt6:~System" />
-              <ref role="3cqZAo" to="wyt6:~System.out" />
+              <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
+              <ref role="3cqZAo" to="wyt6:~System.out" resolve="out" />
             </node>
             <node concept="liA8E" id="5rSvAAOivv7" role="2OqNvi">
-              <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.Object)" resolve="println" />
-              <node concept="37vLTw" id="5rSvAAOivJ5" role="37wK5m">
-                <ref role="3cqZAo" node="5rSvAAOilCJ" resolve="r" />
+              <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String)" resolve="println" />
+              <node concept="3cpWs3" id="62lIStmLg8Z" role="37wK5m">
+                <node concept="37vLTw" id="62lIStmLhzE" role="3uHU7w">
+                  <ref role="3cqZAo" node="62lIStmLbEQ" resolve="node" />
+                </node>
+                <node concept="3cpWs3" id="62lIStmLj2Q" role="3uHU7B">
+                  <node concept="Xl_RD" id="62lIStmLm0n" role="3uHU7B">
+                    <property role="Xl_RC" value="" />
+                  </node>
+                  <node concept="37vLTw" id="62lIStmLcCw" role="3uHU7w">
+                    <ref role="3cqZAo" node="5rSvAAOilCJ" resolve="r" />
+                  </node>
+                </node>
               </node>
             </node>
           </node>

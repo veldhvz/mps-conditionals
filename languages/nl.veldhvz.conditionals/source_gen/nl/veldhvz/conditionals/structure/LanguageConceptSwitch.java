@@ -14,9 +14,10 @@ public final class LanguageConceptSwitch {
   public static final int IfExpression = 2;
   public static final int IsInstanceOfExpression = 3;
   public static final int NodeIsInstanceOfExpression = 4;
-  public static final int Subject = 5;
-  public static final int SubjectReference = 6;
-  public static final int SwitchExpression = 7;
+  public static final int OrElseExpression = 5;
+  public static final int Subject = 6;
+  public static final int SubjectReference = 7;
+  public static final int SwitchExpression = 8;
 
   public LanguageConceptSwitch() {
     LanguageConceptIndexBuilder builder = new LanguageConceptIndexBuilder(0x29a56a408c094f5bL, 0x932d7da9f1e1d8ccL);
@@ -25,6 +26,7 @@ public final class LanguageConceptSwitch {
     builder.put(0x74d312dd558f179bL, IfExpression);
     builder.put(0x630803075e1518e5L, IsInstanceOfExpression);
     builder.put(0x630803075e1653a2L, NodeIsInstanceOfExpression);
+    builder.put(0x6095bb8756c0c28bL, OrElseExpression);
     builder.put(0x3a45ff275a68e59bL, Subject);
     builder.put(0x74d312dd5586e304L, SubjectReference);
     builder.put(0x74d312dd55967a8aL, SwitchExpression);

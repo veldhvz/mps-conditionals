@@ -33,6 +33,7 @@
   <uses module="7a5dda62-9140-4668-ab76-d5ed1746f2b2(jetbrains.mps.lang.typesystem)" kind="dp" />
   <uses module="9a4afe51-f114-4595-b5df-048ce3c596be(jetbrains.mps.runtime)" kind="rt+dp" />
   <uses module="29a56a40-8c09-4f5b-932d-7da9f1e1d8cc(nl.veldhvz.conditionals)" kind="dp" />
+  <uses module="c45dae0d-3002-45a6-9357-a3abf67e30a3(nl.veldhvz.smartcasts)" kind="dp" />
   <dependency className="nl.veldhvz.conditionals.generator.templates.QueriesGenerated">
     <classNode dependClassName="java.lang.Iterable" />
     <classNode dependClassName="java.lang.Object" />
